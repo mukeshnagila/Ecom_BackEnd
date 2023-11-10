@@ -17,11 +17,11 @@ app.get("/", (req, res)=>{
 })
 
 
-app.listen(5009, async(req,res) => {
-// app.listen(5009, () => {
+app.listen(5109, async(req,res) => {
+// app.listen(5109, () => {
     try{
         await connectToDatabase()
-        console.log("server is running fine by PORT - 5009");
+        console.log("server is running fine by PORT - 5109");
     }catch(err){
         console.log("error in running server", (err));
     }
